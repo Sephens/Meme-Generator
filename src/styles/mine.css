@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Rubik+Microbe&display=swap');
+
+/* style the navbar */
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color:#C47AFF;
+
+}
+
+.left-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.right-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-right: 20px;
+}
+
+#logo-img{
+    width: 30px;
+    padding: 0 12px;
+}
+
+#logo-title{
+    font-family: 'Acme', sans-serif;
+    color: white;
+}
+
+#nav-text{
+    font-family: 'Rubik Microbe', cursive;
+    color: white;
+}
+
+/* hero styling */
+
+.hero{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   align-items: center;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 30px;
+}
+
+.top-hero{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#left-input{
+    width: 50%;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #7978FF;
+    margin: 14px 14px 14px 0;
+}
+
+#right-input{
+    width: 50%;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #7978FF;
+    margin: 14px 0 14px 14px;
+}
+
+.middle-hero{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#get-meme-btn{
+    text-decoration: none;
+    color: white;
+    background-color: #4649FF;
+    padding: 12px;
+    margin: 18px 0 18px 0;
+    border: 1px solid #4649FF;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.bottom-hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#meme{
+    width: 100%;
+    border-radius: 12px;
+}
