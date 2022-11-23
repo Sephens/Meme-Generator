@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Rubik+Microbe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Kosugi&family=Rubik+Microbe&family=Titan+One&display=swap');
 
 /* style the navbar */
 .nav-bar{
@@ -8,7 +8,8 @@
     align-items: center;
     width: 100%;
     height: 50px;
-    background-color:#C47AFF;
+    background: linear-gradient(-90deg, #289522 23.3%, #7978FF 60%);
+    position: fixed;
 
 }
 
@@ -59,12 +60,17 @@
     justify-content: center;
     width: 50%;
     margin: 30px;
+    margin-top: 5rem;
 }
 
-.top-hero{
+.form{
+    display: flex;
+    flex-direction: column;
+
+}
+.top-form{
     display: flex;
     flex-direction: row;
-    width: 100%;
 }
 
 #left-input{
@@ -72,27 +78,33 @@
     padding: 8px;
     border-radius: 8px;
     border: 1px solid #7978FF;
+    background-color: transparent;
+    text-indent: 8px;
     margin: 14px 14px 14px 0;
+    color: chocolate;
+    font-family: 'Kosugi', sans-serif;
+    font-size: 16px;
+    height: 22px;
 }
 
 #right-input{
     width: 50%;
+    height: 22px;
+    font-size: 16px;
+    text-indent: 8px;
+    color: chocolate;
+    background-color: transparent;
     padding: 8px;
     border-radius: 8px;
     border: 1px solid #7978FF;
     margin: 14px 0 14px 14px;
-}
-
-.middle-hero{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+    font-family: 'Kosugi', sans-serif;
 }
 
 #get-meme-btn{
     text-decoration: none;
     color: white;
-    background-color: #4649FF;
+    background: linear-gradient(90deg, #C47AFF 3.3%, #7978FF 100%);
     padding: 12px;
     margin: 18px 0 18px 0;
     border: 1px solid #4649FF;
@@ -100,14 +112,9 @@
     width: 100%;
     font-size: 16px;
     text-align: center;
+    font-family: 'Titan One', cursive;
+    cursor: pointer;
 
-}
-
-.bottom-hero{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
 }
 
 #meme{
