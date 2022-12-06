@@ -1,21 +1,27 @@
 import React from "react";
-import meme1 from "../assets/meme1.jpg";
-
 import memes from '../../src/memes'
 
 export default function Hero() {
 
   let url
+  // the concept of state
+  const [memeImage, setMemeImage] = React.useState("")
 
+  // this function handles what happens when a user clicks on the get new meme image
   function handleClick(event){
+    // prevent the  site from refreshing when the button i clicked
     event.preventDefault();
+
+    // get the memes and store them in an array
     const memesArray = memes.data.memes
+    // select rabdomly from the array created above
     const randomMeme = Math.floor(Math.random() * memesArray.length)
+
+    // just get the urls of the randomly chosen meme from the array
     url = memesArray[randomMeme].url
-    return(
-      
-      console.log(url)
-    )
+
+    // update the state by replacing it with the url above
+    setMemeImage(url)
   }
   return (
     <div className="hero">
@@ -34,7 +40,7 @@ export default function Hero() {
         </form>
 
         <div className="meme-image">
-        <img src={meme1} alt="" id='meme'/>
+        <img src={memeImage} alt="" id='meme'/>
         </div>
       </div>
       </div>
