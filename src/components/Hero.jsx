@@ -31,9 +31,7 @@ export default function Hero() {
         <div className="top-form">
           <input type="text" placeholder="Shut up" id="left-input" />
           <input type="text" placeholder="and take money" id="right-input" />
-
           </div>
-
           <div className="btn">
           <button id="get-meme-btn" onClick={handleClick}>Get a new meme image</button>
           </div>
