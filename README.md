@@ -1,3 +1,16 @@
+# What is the Meme Generator?
+It's a free online image maker that lets you add custom resizable text, images, and much more to templates. People often use the generator to customize established memes, such as those found in Imgflip's collection of Meme Templates. However, you can also upload your own templates or start from scratch with empty templates.
+
+# How can I customize my meme?
+* You can move and resize the text boxes by dragging them around. If you're on a mobile device, you may have to first check "enable drag/drop" in the More Options section. You can add as many additional text boxes as you want with the Add Text button.
+* You can customize the font color and outline color next to where you type your text.
+* You can further customize the font for each text box using the gear icon next to the text input. Imgflip supports all fonts installed on your device including the default Windows, Mac, and web fonts, including bold and italic. Over 1,300 free fonts are also supported for all devices. Any other font you want can be used if you first install it on your device and then type in the font name on Imgflip.
+* You can insert popular or custom stickers and other images including scumbag hats, deal-with-it sunglasses, speech bubbles, and more. Opacity and resizing are supported, and you can copy/paste images using CMD/CTRL + C/V for quick creation.
+* You can rotate, flip, and crop any templates you upload.
+* You can draw, outline, or scribble on your meme using the panel just above the meme preview image.
+* You can create "meme chains" of multiple images stacked vertically by adding new images with the "below current image" setting.
+* You can add special image effects like posterize, jpeg artifacts, blur, sharpen, and color filters like grayscale, sepia, invert, and brightness.
+
 # State and Props in React
 React is the most popular front end JavaScript library today. From startups to big corporations, companies are adopting this widely used technology. Big names like Netflix, Airbnb, The New York Times, and many more are already using it on their websites and mobile applications. React’s popularity grew mainly due to how fast React web applications perform when compared to those developed using Angular. React introduced several concepts that overcame the drawbacks of previous front end frameworks.
 
