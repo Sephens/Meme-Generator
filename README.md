@@ -27,3 +27,5 @@ React is the most popular front end JavaScript library today. From startups to b
 |Component  |State can only be used in class components |  Props can be used in both functional and class components|
 |Updation  |Event handlers generally update state   |   The parent component sets props for the children components  |
 
+React is just wonderful!!!
+
